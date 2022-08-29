@@ -1,0 +1,39 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+	int i,j,c,a;
+	cout<<"enter the value of i ::";
+	cin>>i;
+	cout<<"enter the value of j ::";
+	cin>>j;
+	cout<<i<<j;
+	cout<<"enter the choice{1=+,2=-,3=*,4=/,5=%}::";
+	cin>>c;
+	switch(c)
+	{
+		case 1:
+			a=i+j;
+			cout<<"the sum is :: "<<a;
+			break;
+		case 2:
+			a=i-j;
+			cout<<"the difference is :: "<<a;
+			break;
+		case 3:
+			a=i*j;
+			cout<<"the product is :: "<<a;
+			break;
+		case 4:
+			a=i/j;
+			cout<<"the answer is :: "<<a;
+			break;
+		case 5:
+			a=i%j;
+			cout<<"the remainder is :: "<<a;
+			break;
+		default:
+			cout<<"invalid input.";
+	}
+	return 0;
+}
