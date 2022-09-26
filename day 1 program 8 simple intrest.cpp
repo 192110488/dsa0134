@@ -1,0 +1,24 @@
+#include<iostream>
+using namespace std ;
+int main()
+{
+	int p,t,r,si;
+	char a;
+	cout<<"enter the principle ::";
+	cin>>p;
+	cout<<"enter the time ::";
+	cin>>t;
+	cout<<"senior citizen (y/n)::";
+	cin>>a;
+	if(a=='y')
+	{
+		si=(p*t*12)/100;
+		cout<<"\n the simple intrest is "<<si<<" ...";
+	}
+	else if(a=='n')
+	{
+		si=(p*t*10)/100;
+		cout<<"\n The simple intrest is "<<si<<" ....";
+	}
+	return 0;
+}
