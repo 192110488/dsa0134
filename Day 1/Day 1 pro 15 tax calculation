@@ -23,6 +23,5 @@ int main()
 	
 	printf("Salary: %ld\n",salary);
 	printf("Tax: %0.2f\n",tax);
-	
 	return 0;	
 }
